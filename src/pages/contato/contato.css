@@ -1,0 +1,96 @@
+
+
+
+
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+    
+}
+
+
+.Contatos{
+    border: 1px solid black;
+    border-image: linear-gradient(to right, #dfbd69,#e0aa3e);
+    border-image-slice: 1;
+    width: 800px;
+    height: auto;
+
+    /**/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.Contatos > h1{
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.Contatos > p , span{
+  
+   font-size: 20px;
+
+
+}
+
+.extras{
+    font-size: 12px;
+    
+}
+
+.entregas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /**/
+    width: 100%;
+    text-align: justify;
+    
+    
+}
+
+.entregas > p{
+   padding: 10px;
+   margin: 0;
+   font-size: 20px;
+}
+
+.entregas > h3{
+    margin: 0;
+    line-height: 1.1;
+
+ }
+
+ .img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 2%;
+ }
+
+ img{
+    width: 100%;
+    height: 100%;
+ }
+
+ @media (max-width: 790px) {
+
+    
+    .Contatos{
+        margin-top: 7%;
+       width: 80%;
+       
+     }
+     
+    }
